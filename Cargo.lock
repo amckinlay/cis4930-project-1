@@ -1,0 +1,35 @@
+[root]
+name = "cis4930-project-1"
+version = "0.0.1"
+dependencies = [
+ "nphysics2df64 0.1.0 (git+https://github.com/sebcrozet/nphysics#3d9e724778c5a6a26869f8a93b650eece0958715)",
+ "rust-sfml 0.9.0 (git+https://github.com/jeremyletang/rust-sfml#ae70243880e4d7d3fac77348bf0cd2bdd8665ee6)",
+]
+
+[[package]]
+name = "nalgebra"
+version = "0.1.0"
+source = "git+https://github.com/sebcrozet/nalgebra#ba18f5aa702846c7fd79d80b9eefc0372d7a00dc"
+
+[[package]]
+name = "ncollide"
+version = "0.1.0"
+source = "git+https://github.com/sebcrozet/ncollide#4f744e66da8bb9d22ab349817dd94918466aecf3"
+dependencies = [
+ "nalgebra 0.1.0 (git+https://github.com/sebcrozet/nalgebra#ba18f5aa702846c7fd79d80b9eefc0372d7a00dc)",
+]
+
+[[package]]
+name = "nphysics2df64"
+version = "0.1.0"
+source = "git+https://github.com/sebcrozet/nphysics#3d9e724778c5a6a26869f8a93b650eece0958715"
+dependencies = [
+ "nalgebra 0.1.0 (git+https://github.com/sebcrozet/nalgebra#ba18f5aa702846c7fd79d80b9eefc0372d7a00dc)",
+ "ncollide 0.1.0 (git+https://github.com/sebcrozet/ncollide#4f744e66da8bb9d22ab349817dd94918466aecf3)",
+]
+
+[[package]]
+name = "rust-sfml"
+version = "0.9.0"
+source = "git+https://github.com/jeremyletang/rust-sfml#ae70243880e4d7d3fac77348bf0cd2bdd8665ee6"
+

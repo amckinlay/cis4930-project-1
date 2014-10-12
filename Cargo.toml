@@ -3,3 +3,11 @@
 name = "cis4930-project-1"
 version = "0.0.1"
 authors = ["Andrew McKinlay <mckinlay.andrew@gmail.com>"]
+
+[dependencies.nphysics2df64]
+
+git = "https://github.com/sebcrozet/nphysics"
+
+[dependencies.rust-sfml]
+
+git = "https://github.com/jeremyletang/rust-sfml"
