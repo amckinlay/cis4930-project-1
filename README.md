@@ -9,4 +9,5 @@ cis4930-project-1
 4. Run `cargo run`**
 
 *Note: if installed manually, ensure that CSFML libs are discoverable by the linker (e.g., on Windows, `$env:LIBRARY_PATH = "C:\CSFML-2.1-windows-64bits\CSFML-2.1\lib\gcc"`)
+
 **Note: if installed manually, ensure that CSFML runtime libs are discoverable by the executable (e.g., on Windows, the DLLs from CSFML can be copied to the directory in which the executable resides)
